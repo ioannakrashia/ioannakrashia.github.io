@@ -76,14 +76,18 @@
                 
                 <section class="form-contact-us clearfix">
                     
+                
                     <legend class="form-header">Contact us</legend>
                     
+                    <form action="http://formspree.io/your@email.com"
+      method="POST">
+                        
                     <div class="form-line-break">
                         <label>Full name*</label>
                     </div>
                     
                     <div class="form-line-break form-input-small">
-                        <input type="text" name="fullName" placeholder="Full name" required="required" maxlength="50">
+                        <input type="text" name="name" placeholder="Full name" required="required" maxlength="50">
                     </div>
             
                     <div class="form-line-break">
@@ -91,7 +95,7 @@
                     </div>
                         
                     <div class="form-line-break form-input-small">
-                        <input type="email" name="emailAddress" placeholder="@ email" required="required">                        </div>
+                        <input type="email" name="_replyto" placeholder="@ email" required="required">                        </div>
             
                     <div class="form-line-break">telephone number</label>
                     </div>
@@ -140,7 +144,7 @@
                     </div>
                         
                         
-                    <button class="button-primary"><a href="mailto:ioannakrashia@gmail.com">Submit</button></a>
+                    <button class="button-primary"><input type="submit" value="Send"></button>
                 </section>
                 
             </main>

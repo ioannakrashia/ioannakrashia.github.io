@@ -41,13 +41,17 @@ $(function() {
     $('.aniimated-thumbnials').lightGallery({
         thumbnail:true,
         animateThumb: true
-    }); 
+    });   
 
-    $('.grid').masonry({
+    var $grid = $('.grid').masonry({
       // options
       itemSelector: '.grid-item',
       columnWidth: 10
-    });    
+    });
+    // layout Masonry after each image loads
+    $grid.imagesLoaded().progress( function() {
+      $grid.masonry('layout');
+    });
 
     
     

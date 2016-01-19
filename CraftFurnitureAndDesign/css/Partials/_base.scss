@@ -225,6 +225,22 @@ Main Content
     text-decoration: underline;
 }
 
+/*=== Quote ===*/
+
+.mission-statement {
+    background-color: $primary-color-light;
+    text-align: center;
+    vertical-align: middle;
+    padding: 5vw 20vw;
+    font-size: larger;
+}
+
+.quote {
+    font-style: italic;
+}
+
+
+
 /*=== Carousel ===*/
 
 #owl-demo .item img{

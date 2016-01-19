@@ -1,5 +1,10 @@
 /* -------------------------------------------------- 
 
+Buttons
+
+-------------------------------------------------- */
+/* -------------------------------------------------- 
+
 Base CSS
 
 -------------------------------------------------- */
@@ -168,6 +173,17 @@ Main Content
 
 #banner-menu-items li a:hover {
   text-decoration: underline; }
+
+/*=== Quote ===*/
+.mission-statement {
+  background-color: #EEEEEE;
+  text-align: center;
+  vertical-align: middle;
+  padding: 5vw 20vw;
+  font-size: larger; }
+
+.quote {
+  font-style: italic; }
 
 /*=== Carousel ===*/
 #owl-demo .item img {
@@ -426,11 +442,6 @@ Galleries
   margin-right: 10px;
   margin-bottom: 10px; }
 
-/* -------------------------------------------------- 
-
-Buttons
-
--------------------------------------------------- */
 /* -------------------------------------------------- 
 
 Buttons

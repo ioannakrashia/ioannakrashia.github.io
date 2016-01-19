@@ -24,16 +24,6 @@ $(function() {
       // itemsMobile : false
  
   });
- 
-    
-// Instafeed - currently not working //
-    
-    var feed = new Instafeed({
-        get: 'tagged',
-        tagName: 'awesome',
-        clientId: 'YOUR_CLIENT_ID'
-    });
-    feed.run();
     
 
 // Gallery with thumbnails //

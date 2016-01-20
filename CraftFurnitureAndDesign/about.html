@@ -109,11 +109,12 @@
                     </div>
                         
                     <div class="form-line-break form-input-grey">
-                        <select id="Subject" placeholder="---" required>
-                            <option>General</option>
-                            <option>Orders</option>
-                            <option>Product</option>
-                            <option>Other</option>
+                        <select name="subject" id="subject" placeholder="---" required>
+                            <option value="" selected="selected">Please select</option>
+                            <option value="General">General</option>
+                            <option value="Orders">Orders</option>
+                            <option value="Product">Product</option>
+                            <option value="Other">Other</option>
                         </select>
                     </div>                
                         
@@ -126,12 +127,12 @@
                             <option value="" selected="selected">Please select</option>
                             <option value="NSW">New South Wales</option>
                             <option value="VIC">Victoria</option>
-                            <option>ACT</option>
-                            <option>VIC</option>
-                            <option>WA</option>
-                            <option>SA</option>
-                            <option>TAS</option>
-                            <option>NT</option>
+                            <option value="ACT">Australian Capital Territory</option>
+                            <option value="QLD">Queensland</option>
+                            <option value="WA">Western Australia</option>
+                            <option value="SA">South Australia</option>
+                            <option value="NT">Nothern Territory</option>
+                            <option value="TAS">Tasmania</option>
                         </select>
                     </div>    
                         
@@ -144,7 +145,7 @@
                     </div>
                         
                         
-                    <button class="button-primary"><input type="submit" value="Send"></button>
+                    <button class="button-primary" type="submit">Submit</button>
                 </section>
                 
             </main>

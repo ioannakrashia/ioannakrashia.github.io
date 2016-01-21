@@ -541,12 +541,12 @@ Site footer
   position: relative; }
 
 .footer-links .footer-copyrights {
-  display: block;
-  margin: 0 auto; }
+  display: flex;
+  justify-content: center; }
 
 .footer-links .footer-internal-external-links {
-  display: block;
-  margin: 0 auto; }
+  display: flex;
+  justify-content: center; }
 
 .footer-links p {
   color: #888687;
@@ -555,7 +555,8 @@ Site footer
   text-align: center; }
 
 .footer-internal-external-links ul {
-  text-align: center; }
+  text-align: center;
+  -webkit-padding-start: 0; }
 
 .footer-internal-external-links li {
   display: inline;

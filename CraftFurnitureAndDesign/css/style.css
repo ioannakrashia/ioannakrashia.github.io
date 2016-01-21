@@ -174,10 +174,15 @@ Main Content
 #banner-menu-items li a:hover {
   text-decoration: underline; }
 
+/*=== Wrapper main block ===*/
+.wrapper-main-block {
+  background-image: url("../images/homepage/dark-tl.svg"), url("../images/homepage/dark-tr.svg"), url("../images/homepage/dark-bl.svg"), url("../images/homepage/dark-br.svg");
+  background-position: top left, top right, bottom left, bottom right;
+  background-repeat: no-repeat;
+  background-color: #EEEEEE; }
+
 /*=== Quote ===*/
 .mission-statement {
-  background-image: url("../images/homepage/concrete-bg.jpg");
-  background-color: #EEEEEE;
   font-family: 'Theinhardt';
   font-size: 1.7vw;
   text-align: center;
@@ -190,7 +195,8 @@ Main Content
 /*=== Carousel ===*/
 #owl-demo .item img {
   display: block;
-  width: 100%;
+  margin: 0 auto;
+  width: 80%;
   height: auto; }
 
 /*=== Featured Categories ===*/

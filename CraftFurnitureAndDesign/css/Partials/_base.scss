@@ -108,12 +108,10 @@ Main Content
     background-color: $primary-color-light;
 }
 
-
 /*=== Quote ===*/
 
 .mission-statement {
     font-family: 'Theinhardt';
-    font-size: 1.7vw;
     text-align: center;
     vertical-align: middle;
     padding: 3vw 20vw;
@@ -193,12 +191,21 @@ Main Content
 
 .image {
     border: 0;
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
 }
 
 .image img {
     border-radius: 5px 5px 0 0;
     display: block;
     width: 100%;
+}
+
+.image:hover {
+  -webkit-filter: grayscale(100%);
 }
 
 .item h2 {
@@ -242,8 +249,11 @@ Main Content
     background-image: url("../images/homepage/dark-tl.svg"), url("../images/homepage/dark-tr.svg");
     background-position: top left, top right, bottom left, bottom right;
     background-repeat: no-repeat;    
-    display: flex;
-    justify-content: center;
+}
+
+.featured-articles-cols {
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .featured-articles-col1 h3 {
@@ -259,7 +269,6 @@ Main Content
 }
 
 .featured-blogs {
-    height: 110px;
     padding: 5px;
 }
 
@@ -287,6 +296,7 @@ Responsive Design
 
 /* Custom, iPhone Retina */ 
 @media only screen and (min-width : 320px) {
+
     
 }
 
@@ -311,12 +321,14 @@ Responsive Design
    
     .featured-articles-col1 {
         float: left;
-        width: 40%;
+        padding-right: 20px;
+        width: 50%;
 }
 
     .featured-social-col2 {
-        float: left;
-        width: 40%;
+        float: right;
+        padding-left: 20px;
+        width: 50%;
 }
 
 }

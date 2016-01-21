@@ -184,7 +184,6 @@ Main Content
 /*=== Quote ===*/
 .mission-statement {
   font-family: 'Theinhardt';
-  font-size: 1.7vw;
   text-align: center;
   vertical-align: middle;
   padding: 3vw 20vw; }
@@ -247,12 +246,20 @@ Main Content
   width: 100%; }
 
 .image {
-  border: 0; }
+  border: 0;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease; }
 
 .image img {
   border-radius: 5px 5px 0 0;
   display: block;
   width: 100%; }
+
+.image:hover {
+  -webkit-filter: grayscale(100%); }
 
 .item h2 {
   font-size: 1em;
@@ -285,9 +292,11 @@ Main Content
 #featured-articles-social-media {
   background-image: url("../images/homepage/dark-tl.svg"), url("../images/homepage/dark-tr.svg");
   background-position: top left, top right, bottom left, bottom right;
-  background-repeat: no-repeat;
-  display: flex;
-  justify-content: center; }
+  background-repeat: no-repeat; }
+
+.featured-articles-cols {
+  max-width: 1000px;
+  margin: 0 auto; }
 
 .featured-articles-col1 h3 {
   min-height: 30px; }
@@ -299,7 +308,6 @@ Main Content
   min-height: 300px; }
 
 .featured-blogs {
-  height: 110px;
   padding: 5px; }
 
 .featured-blogs p {
@@ -338,11 +346,13 @@ Responsive Design
 
   .featured-articles-col1 {
     float: left;
-    width: 40%; }
+    padding-right: 20px;
+    width: 50%; }
 
   .featured-social-col2 {
-    float: left;
-    width: 40%; } }
+    float: right;
+    padding-left: 20px;
+    width: 50%; } }
 /* Medium Devices, Desktops */
 /* -------------------------------------------------- 
 

@@ -14,7 +14,7 @@ html {
 
 body {
 	color: #333;
-	font: normal 18px/27px 'Fjalla One', Arial Narrow, American Typewriter, Theinhardt, Helvetica, Arial, Verdana, serif;
+	font: normal 18px/27px 'Old Standard TT', 'Montserrat', 'Fjalla One', Arial Narrow, American Typewriter, Theinhardt, Helvetica, Arial, Verdana, serif;
     margin: 0;
     padding: 5em 0 0 0;
 }
@@ -84,6 +84,7 @@ Main Content
 /*=== Main Banner Menu ===*/
 
 .main-banner-menu-items ul {
+    font-family: 'Montserrat';
     position: absolute;
     top: 10px;
     left: 5px;
@@ -111,7 +112,7 @@ Main Content
 /*=== Quote ===*/
 
 .mission-statement {
-    font-family: 'Theinhardt';
+    font-family: 'Old Standard TT';
     text-align: center;
     vertical-align: middle;
     padding: 3vw 20vw;
@@ -126,7 +127,7 @@ Main Content
 #owl-demo .item img{
     display: block;
     margin: 0 auto;
-    width: 80%;
+    width: 100%;
     height: auto;
 }
 
@@ -147,12 +148,7 @@ Main Content
 }
 
 #featured-items-homepage {
-    display: flex;
-    justify-content: center;
-}
-
-.featured-categories:before {
-    transform: skewX(-1);
+    margin: 0 auto;
 }
 
 .row {
@@ -272,8 +268,12 @@ Main Content
     padding: 5px;
 }
 
+.featured-blogs h2 {
+    font-family: 'Old Standard TT';
+}
+
 .featured-blogs p {
-    font-family: 'Theinhardt';
+    font-family: 'Old Standard TT';
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0.05em;
@@ -307,17 +307,29 @@ Responsive Design
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+    #owl-demo .item img{
+        width: 80%;
+}
+    
+    #featured-items-homepage {
+        display: flex;
+        justify-content: center;
+}
+    
     .featured-categories-col1 {
         float: left;
-        width: 25%; }
+        width: 25%; 
+}
     
     .featured-categories-col2 {
         float: left;
-        width: 25%; }
+        width: 25%; 
+}
 
     .featured-categories-col3 {
         float: left;
-        width: 15%; }
+        width: 15%; 
+}
    
     .featured-articles-col1 {
         float: left;

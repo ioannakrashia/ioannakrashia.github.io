@@ -55,6 +55,7 @@ Header
   /*should match the above value*/ }
 
 .panel ul {
+  font-family: 'Montserrat';
   font-size: 4vw;
   line-height: 4vw;
   text-transform: uppercase;
@@ -121,7 +122,7 @@ html {
 
 body {
   color: #333;
-  font: normal 18px/27px 'Fjalla One', Arial Narrow, American Typewriter, Theinhardt, Helvetica, Arial, Verdana, serif;
+  font: normal 18px/27px 'Old Standard TT', 'Montserrat', 'Fjalla One', Arial Narrow, American Typewriter, Theinhardt, Helvetica, Arial, Verdana, serif;
   margin: 0;
   padding: 5em 0 0 0; }
 
@@ -162,6 +163,7 @@ Main Content
 
 /*=== Main Banner Menu ===*/
 .main-banner-menu-items ul {
+  font-family: 'Montserrat';
   position: absolute;
   top: 10px;
   left: 5px;
@@ -183,7 +185,7 @@ Main Content
 
 /*=== Quote ===*/
 .mission-statement {
-  font-family: 'Theinhardt';
+  font-family: 'Old Standard TT';
   text-align: center;
   vertical-align: middle;
   padding: 3vw 20vw; }
@@ -195,7 +197,7 @@ Main Content
 #owl-demo .item img {
   display: block;
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   height: auto; }
 
 /*=== Featured Categories ===*/
@@ -210,11 +212,7 @@ Main Content
   font-size: 1em; }
 
 #featured-items-homepage {
-  display: flex;
-  justify-content: center; }
-
-.featured-categories:before {
-  transform: skewX(-1); }
+  margin: 0 auto; }
 
 .row {
   margin: -20px 0 -1px -20px;
@@ -310,8 +308,11 @@ Main Content
 .featured-blogs {
   padding: 5px; }
 
+.featured-blogs h2 {
+  font-family: 'Old Standard TT'; }
+
 .featured-blogs p {
-  font-family: 'Theinhardt';
+  font-family: 'Old Standard TT';
   font-size: 12px;
   line-height: 18px;
   letter-spacing: 0.05em;
@@ -332,6 +333,13 @@ Responsive Design
 /* Extra Small Devices, Phones */
 /* Small Devices, Tablets */
 @media only screen and (min-width: 768px) {
+  #owl-demo .item img {
+    width: 80%; }
+
+  #featured-items-homepage {
+    display: flex;
+    justify-content: center; }
+
   .featured-categories-col1 {
     float: left;
     width: 25%; }
@@ -526,8 +534,9 @@ Site footer
 
 -------------------------------------------------- */
 .site-footer {
-  display: block;
-  margin: 0 auto; }
+  background-color: #888687;
+  margin-top: 10px;
+  padding-left: 5px; }
 
 /*=== Logo ===*/
 .site-footer .logo {
@@ -542,26 +551,20 @@ Site footer
   height: auto; }
 
 /*=== Internal + External Links ===*/
-.site-footer {
-  background-color: #EEEEEE; }
-
 .footer-links {
-  padding: 10px;
   position: relative; }
 
 .footer-links .footer-copyrights {
   display: flex;
-  justify-content: center; }
+  justify-content: flex-start; }
 
 .footer-links .footer-internal-external-links {
   display: flex;
-  justify-content: center; }
+  justify-content: flex-start; }
 
 .footer-links p {
-  color: #888687;
-  font-size: 10px;
-  line-height: 15px;
-  text-align: center; }
+  color: #fff;
+  font-size: 12px; }
 
 .footer-internal-external-links ul {
   text-align: center;
@@ -572,5 +575,8 @@ Site footer
   list-style: none;
   padding: 5px 10px 5px 0px;
   text-align: center; }
+
+.footer-internal-external-links li a {
+  color: #fff; }
 
 /*# sourceMappingURL=style.css.map */

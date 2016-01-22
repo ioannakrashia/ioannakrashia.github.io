@@ -45,6 +45,16 @@ Header
   top: 40%;
   left: 40%; }
 
+.menu-animation {
+  -webkit-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.2s ease;
+  transition: 0.2s ease; }
+
+.menu-animation:hover {
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg); }
+
 .panel {
   background: rgba(0, 0, 0, 0.8);
   z-index: 9999;
@@ -95,7 +105,7 @@ Header
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 2%;
+  margin-top: 1.5%;
   vertical-align: middle; }
 
 /*=== Search icon ===*/

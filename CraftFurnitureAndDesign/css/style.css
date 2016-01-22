@@ -60,7 +60,8 @@ Header
   line-height: 3.7vw;
   text-transform: uppercase;
   list-style: none;
-  -webkit-padding-start: 20px; }
+  -webkit-padding-start: 20px;
+  -webkit-margin-before: 0.7em; }
 
 .panel a {
   display: block;
@@ -94,7 +95,7 @@ Header
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1%;
+  margin-top: 2%;
   vertical-align: middle; }
 
 /*=== Search icon ===*/
@@ -287,7 +288,8 @@ Main Content
 #featured-articles-social-media {
   background-image: url("../images/homepage/dark-tl.svg"), url("../images/homepage/dark-tr.svg");
   background-position: top left, top right, bottom left, bottom right;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  padding-bottom: 15px; }
 
 .featured-articles-cols {
   max-width: 1000px;
@@ -320,6 +322,18 @@ Main Content
 
 .Social-media-content-col2 {
   min-height: 300px; }
+
+/* -------------------------------------------------- 
+
+General
+
+-------------------------------------------------- */
+.page-container {
+  padding: 10px; }
+
+.page-descr {
+  text-align: center;
+  padding-bottom: 10px; }
 
 /* -------------------------------------------------- 
 
@@ -433,14 +447,6 @@ button:hover {
 
 /* -------------------------------------------------- 
 
-General
-
--------------------------------------------------- */
-.main-content .page-header-image {
-  margin-bottom: 20px; }
-
-/* -------------------------------------------------- 
-
 Find us
 
 -------------------------------------------------- */
@@ -532,8 +538,8 @@ Site footer
 -------------------------------------------------- */
 .site-footer {
   background-color: #888687;
-  margin-top: 10px;
-  padding-left: 10px; }
+  padding-left: 10px;
+  padding-top: 10px; }
 
 /*=== Internal + External Links ===*/
 .footer-links {

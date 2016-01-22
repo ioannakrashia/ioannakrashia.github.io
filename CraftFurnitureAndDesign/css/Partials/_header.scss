@@ -50,6 +50,8 @@ Header
     text-transform: uppercase;
     list-style: none;
     -webkit-padding-start: 20px;
+    -webkit-margin-before: 0.7em;
+
 }
 
 .panel a {
@@ -92,7 +94,7 @@ Header
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1%;
+    margin-top: 2%;
     vertical-align: middle;
 }
 

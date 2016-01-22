@@ -57,10 +57,10 @@ Header
 .panel ul {
   font-family: 'Montserrat';
   font-size: 4vw;
-  line-height: 4vw;
+  line-height: 3.7vw;
   text-transform: uppercase;
   list-style: none;
-  -webkit-padding-start: 0.6em; }
+  -webkit-padding-start: 20px; }
 
 .panel a {
   display: block;
@@ -130,10 +130,6 @@ h1 {
   font-size: 4vw;
   line-height: 4vw; }
 
-h2 {
-  font-size: 2.5vw;
-  line-height: 2.5vw; }
-
 a {
   color: #888687;
   text-decoration: none; }
@@ -168,7 +164,8 @@ Main Content
   top: 10px;
   left: 5px;
   list-style-type: none;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  -webkit-padding-start: 20px; }
 
 #banner-menu-items li a {
   color: #fff; }

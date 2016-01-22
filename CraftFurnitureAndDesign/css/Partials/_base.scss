@@ -25,8 +25,7 @@ h1 {
 }
 
 h2 {
-    font-size: 2.5vw;
-    line-height: 2.5vw;
+    
 }
 
 h3 {
@@ -90,6 +89,7 @@ Main Content
     left: 5px;
     list-style-type: none;
     text-transform: uppercase;
+    -webkit-padding-start: 20px;
 }
 
 #banner-menu-items li a {

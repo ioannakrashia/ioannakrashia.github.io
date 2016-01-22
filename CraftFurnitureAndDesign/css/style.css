@@ -536,19 +536,7 @@ Site footer
 .site-footer {
   background-color: #888687;
   margin-top: 10px;
-  padding-left: 5px; }
-
-/*=== Logo ===*/
-.site-footer .logo {
-  background-color: #EEEEEE;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  padding: 20px 0 0 0; }
-
-.site-footer .logo img {
-  width: 200px;
-  height: auto; }
+  padding-left: 10px; }
 
 /*=== Internal + External Links ===*/
 .footer-links {
@@ -573,10 +561,12 @@ Site footer
 .footer-internal-external-links li {
   display: inline;
   list-style: none;
-  padding: 5px 10px 5px 0px;
+  padding: 5px 10px 0px 0px;
   text-align: center; }
 
 .footer-internal-external-links li a {
   color: #fff; }
+
+/*=== Subscribe ===*/
 
 /*# sourceMappingURL=style.css.map */

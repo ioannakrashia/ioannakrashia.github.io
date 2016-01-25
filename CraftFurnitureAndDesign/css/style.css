@@ -65,9 +65,9 @@ Header
   /*should match the above value*/ }
 
 .panel ul {
-  font-family: 'Montserrat';
+  font-family: 'Fjalla One';
   font-size: 4vw;
-  line-height: 3.7vw;
+  line-height: 4vw;
   text-transform: uppercase;
   list-style: none;
   -webkit-padding-start: 20px;
@@ -170,7 +170,7 @@ Main Content
 
 /*=== Main Banner Menu ===*/
 .main-banner-menu-items ul {
-  font-family: 'Montserrat';
+  font-family: 'Fjalla One';
   position: absolute;
   top: 10px;
   left: 5px;

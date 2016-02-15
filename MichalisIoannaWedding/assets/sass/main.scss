@@ -4,12 +4,6 @@
 @import url('font-awesome.min.css');
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
-/*
-	Alpha by Pixelarity
-	pixelarity.com @pixelarity
-	License: pixelarity.com/license
-*/
-
 	@import "libs/skel";
 
 	@include skel-breakpoints((
@@ -1215,7 +1209,7 @@
 	#banner {
 		background-attachment:	scroll,							fixed;
 		background-color:		#666;
-		background-image:		url('images/overlay.png'),		url('../../images/banner-MI.jpg');
+		background-image:		url('images/overlay.png'),		url('../../images/banner-MI2.jpg');
 		background-position:	top left,						center center;
 		background-repeat:		repeat,							no-repeat;
 		background-size:		auto,							cover;

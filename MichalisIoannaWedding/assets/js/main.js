@@ -114,17 +114,84 @@
       $( "#_limassol" ).toggle( "fast" );
     });
     
+            $( ".toggleLimGeneral" ).click(function() {
+            $( "#_LimGeneral" ).toggle( "fast" );
+            });
+    
+            $( ".toggleLimRest" ).click(function() {
+            $( "#_LimRest" ).toggle( "fast" );
+            });
+
+            $( ".toggleLimBeach" ).click(function() {
+            $( "#_LimBeach" ).toggle( "fast" );
+            });
+    
+            $( ".toggleLimTips" ).click(function() {
+            $( "#_LimTips" ).toggle( "fast" );
+            });
+    
+    
     $( ".toggleLarnaca" ).click(function() {
       $( "#_larnaca" ).toggle( "fast" );
     });
     
+            $( ".toggleLcaGeneral" ).click(function() {
+            $( "#_LcaGeneral" ).toggle( "fast" );
+            });
+    
+            $( ".toggleLcaRest" ).click(function() {
+            $( "#_LcaRest" ).toggle( "fast" );
+            });
+    
+            $( ".toggleLcaBeach" ).click(function() {
+            $( "#_LcaBeach" ).toggle( "fast" );
+            });
+
+            $( ".toggleLcaTips" ).click(function() {
+            $( "#_LcaTips" ).toggle( "fast" );
+            });
+    
+    
     $( ".toggleProtaras" ).click(function() {
       $( "#_protaras" ).toggle( "fast" );
     });
+    
+            $( ".toggleProGeneral" ).click(function() {
+            $( "#_ProGeneral" ).toggle( "fast" );
+            });
+    
+            $( ".toggleProRest" ).click(function() {
+            $( "#_ProRest" ).toggle( "fast" );
+            });
+
+            $( ".toggleProBeach" ).click(function() {
+            $( "#_ProBeach" ).toggle( "fast" );
+            });
+    
+            $( ".toggleProTips" ).click(function() {
+            $( "#_ProTips" ).toggle( "fast" );
+            });
+    
+    
     $( ".togglePaphos" ).click(function() {
       $( "#_paphos" ).toggle( "fast" );
     });
+
+            $( ".togglePapGeneral" ).click(function() {
+            $( "#_PapGeneral" ).toggle( "fast" );
+            });
     
+            $( ".togglePapRest" ).click(function() {
+            $( "#_PapRest" ).toggle( "fast" );
+            });
+    
+            $( ".togglePapBeach" ).click(function() {
+            $( "#_PapBeach" ).toggle( "fast" );
+            });
+
+            $( ".togglePapTips" ).click(function() {
+            $( "#_PapTips" ).toggle( "fast" );
+            });    
     
 
 })(jQuery);

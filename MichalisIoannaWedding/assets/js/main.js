@@ -1,9 +1,3 @@
-/*
-	Alpha by Pixelarity
-	pixelarity.com @pixelarity
-	License: pixelarity.com/license
-*/
-
 (function($) {
 
 	skel.breakpoints({
@@ -96,5 +90,28 @@
 			}
 
 	});
+    
+    // Travel info show/hide toggles
+    
+    $( ".toggleNicosia" ).click(function() {
+      $( "#_nicosia" ).toggle( "fast" );
+    });
+    
+    $( ".toggleLimassol" ).click(function() {
+      $( "#_limassol" ).toggle( "fast" );
+    });
+    
+    $( ".toggleLarnaca" ).click(function() {
+      $( "#_larnaca" ).toggle( "fast" );
+    });
+    
+    $( ".toggleProtaras" ).click(function() {
+      $( "#_protaras" ).toggle( "fast" );
+    });
+    $( ".togglePaphos" ).click(function() {
+      $( "#_paphos" ).toggle( "fast" );
+    });
+    
+    
 
 })(jQuery);

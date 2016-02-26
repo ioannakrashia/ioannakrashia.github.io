@@ -1505,7 +1505,10 @@ header h3 + p {
   font-size: 1.1em;
   margin-top: -0.85em;
   line-height: 1.5em; }
-header h4 + p,
+header h4 + p {
+  font-size: 1.0em;
+  margin-top: -0.85em;
+  line-height: 1.5em; }
 header h5 + p,
 header h6 + p {
   font-size: 0.8em;
@@ -1525,6 +1528,12 @@ header.major {
     font-style: normal;
     font-family: 'Amatic SC';
     font-size: 24px; }
+
+.travelInfo_h4 {
+  text-decoration: underline; }
+
+.collapse {
+  display: none; }
 
 /* Form */
 form {

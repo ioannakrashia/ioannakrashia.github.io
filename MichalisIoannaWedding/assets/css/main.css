@@ -1535,6 +1535,9 @@ header.major {
 .collapse {
   display: none; }
 
+.toggle {
+  cursor: pointer; }
+
 /* Form */
 form {
   margin: 0 0 2em 0; }

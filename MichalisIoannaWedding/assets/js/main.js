@@ -96,6 +96,19 @@
     $( ".toggleNicosia" ).click(function() {
       $( "#_nicosia" ).toggle( "fast" );
     });
+
+            $( ".toggleNicGeneral" ).click(function() {
+            $( "#_nicGeneral" ).toggle( "fast" );
+            });
+    
+            $( ".toggleNicRest" ).click(function() {
+            $( "#_nicRest" ).toggle( "fast" );
+            });
+
+            $( ".toggleNicTips" ).click(function() {
+            $( "#_nicTips" ).toggle( "fast" );
+            });
+
     
     $( ".toggleLimassol" ).click(function() {
       $( "#_limassol" ).toggle( "fast" );

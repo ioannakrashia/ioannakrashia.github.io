@@ -62,7 +62,7 @@
 
 	strong, b {
 		color: _palette(fg-bold);
-		font-weight: _font(weight-bold);
+		font-weight: 600;
 	}
 
 	em, i {
@@ -246,17 +246,18 @@
 	footer {
 	}
 
-    .travelInfo_h4 {
-        text-decoration: underline;
-}
-
     .collapse {
         display: none;
     }
 
-    .collapse p {
-        font: 'Amatic SC';
-        
+    .travelInfo .collapse p {
+        font-family: 'Cabin Sketch';
+        font-size: 16px;
+    }
+
+    .travelInfo .collapse ul li {
+        font-family: 'Cabin Sketch';
+        font-size: 16px;
     }
 
     .travelInfo h3 {
@@ -265,6 +266,7 @@
 
     .travelInfo h4 {
         font-family: 'Cabin Sketch';
+        color: #e89980;
     }
 
     .toggle {
@@ -460,7 +462,7 @@
             font-family: 'Amatic SC';
             font-size: 24px;
         }
-
+        
 		&.alt {
 			background: none !important;
 			border-radius: 0 !important;
@@ -699,6 +701,7 @@
 
 		li {
 			padding-left: 0.5em;
+            margin-bottom: 10px;
 		}
 
 		&.alt {
